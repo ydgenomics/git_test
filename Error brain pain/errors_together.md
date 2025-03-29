@@ -6,4 +6,6 @@ null device
           1
 ```
 解决方案，设置`silent = TRUE`
-`p1 <- pheatmap(t(expr), scale = "column", angle_col = 90, cluster_rows = FALSE, cluster_cols = TRUE, show_colnames = TRUE, silent = TRUE)`
+```R
+p1 <- pheatmap(t(expr), scale = "column", angle_col = 90, cluster_rows = FALSE, cluster_cols = TRUE, show_colnames = TRUE, silent = TRUE)`
+```
